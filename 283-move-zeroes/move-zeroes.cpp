@@ -6,13 +6,13 @@ public:
         {
             if(nums[i]!=0)
             {
-                nums[k]=nums[i];
-                k++;
+            nums[k]=nums[i];
+            k++;
             }
         }
-        for(;k<nums.size();k++)
+        for(;k<=nums.size()-1;k++)
         {
-           nums[k]=0;
+            nums[k]=0;
         }
     }
 };
