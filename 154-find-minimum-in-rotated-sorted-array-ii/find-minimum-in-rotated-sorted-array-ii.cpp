@@ -10,7 +10,7 @@ public:
             {
                 low=mid+1;
             }
-            else if(nums[mid]<nums[low])
+            else if(nums[mid]<nums[high])
             {
                 high=mid;
             }
