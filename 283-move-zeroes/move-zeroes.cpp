@@ -6,11 +6,11 @@ public:
         {
             if(nums[i]!=0)
             {
-            nums[k]=nums[i];
-            k++;
+                nums[k]=nums[i];
+                k++;
             }
         }
-        for(;k<=nums.size()-1;k++)
+        for(;k<nums.size();k++)
         {
             nums[k]=0;
         }
